@@ -7,6 +7,10 @@
 ### Learnings
 
 - Use of `IndexedStack` for switching between screens with a `bottomNavigationBar`
+- Ability to have body extend behind `bottomNavigationBar` with
+  ```dart
+  extendBody: true
+  ```
 - Use of `DefaultTabController`, `TabBar`, `TabBarView` and `TabPage` for handling tabbed views
 
   - Use of the `AutomaticKeepAliveClientMixin` mixin to maintain state when switching between tabs
@@ -18,3 +22,4 @@
       ...
     }
     ```
+    
